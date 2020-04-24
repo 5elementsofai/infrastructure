@@ -1,0 +1,13 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  namespace: 5elementsofai
+  name: app-ingress
+spec:
+  rules:
+  - host: aiproduct.space
+    http:
+    paths:
+    - backend:
+        serviceName: app
+        servicePort: 80
