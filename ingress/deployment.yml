@@ -1,7 +1,7 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  namespace: ingress
+  namespace: 5elementsofai
   name: nginx-ingress-controller
 spec:
   replicas: 1
