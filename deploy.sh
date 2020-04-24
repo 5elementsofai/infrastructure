@@ -1,5 +1,9 @@
 #!/bin/bash
 
+echo "Creating the namespace..."
+
+kubectl create namespace 5elementsofai
+
 
 echo "Creating the volume..."
 
