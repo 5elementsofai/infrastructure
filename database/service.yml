@@ -2,13 +2,12 @@ apiVersion: v1
 kind: Service
 metadata:
   namespace: 5elementsofai
-  name: app
+  name: postgres
   labels:
-    service: app
+    service: postgres
 spec:
-  type: ClusterIP
   selector:
-    app: app
+    service: postgres
+  type: ClusterIP
   ports:
-    - port: 8080
-      targetPort: 8080
+    - port: 5432

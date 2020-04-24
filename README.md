@@ -2,3 +2,6 @@
 
 ## Installation
 - Prepare: kubectl create namespace <name>
+
+## Deployment
+    sh ./deploy.sh

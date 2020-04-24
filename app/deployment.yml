@@ -18,9 +18,11 @@ spec:
       containers:
         - name: app
           image: 5elementsofai/app
+          imagePullPolicy: Always
           ports:
             - containerPort: 80
           resources:
             limits:
               memory: "256Mi"
               cpu: "500m"
+      restartPolicy: Always
