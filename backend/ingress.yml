@@ -9,5 +9,5 @@ spec:
     http:
     paths:
     - backend:
-        serviceName: backend
+        serviceName: backend-service
         servicePort: 5000

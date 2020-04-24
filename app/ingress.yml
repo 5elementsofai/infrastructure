@@ -7,7 +7,7 @@ spec:
   rules:
   - host: aiproduct.space
     http:
-    paths:
-    - backend:
-        serviceName: app
-        servicePort: 8080
+      paths:
+      - backend:
+          serviceName: app-service
+          servicePort: 8080
